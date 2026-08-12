@@ -67,6 +67,16 @@ export function ShopPage() {
           ))}
         </div>
       )}
+
+      <section className="section">
+        <h2>FAQs</h2>
+        {faqs.map((faq) => (
+          <div className="faq-item" key={faq.question}>
+            <h3 style={{ margin: '0 0 6px', fontSize: '1.05rem' }}>{faq.question}</h3>
+            <p>{faq.answer}</p>
+          </div>
+        ))}
+      </section>
     </div>
   )
 }

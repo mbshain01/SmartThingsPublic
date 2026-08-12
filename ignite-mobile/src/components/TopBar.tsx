@@ -15,9 +15,9 @@ export function TopBar() {
           Install app
         </button>
       ) : (
-        <a className="install-btn" href="/quote">
+        <Link className="install-btn" to="/quote">
           Get a quote
-        </a>
+        </Link>
       )}
     </header>
   )
