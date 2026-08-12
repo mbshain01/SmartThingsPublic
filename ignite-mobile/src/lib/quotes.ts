@@ -9,6 +9,8 @@ export type QuoteRequest = {
   quantity: string
   details: string
   rush: boolean
+  providingProduct: string
+  fulfillment: string
 }
 
 const STORAGE_KEY = 'ignite-quote-requests'
@@ -49,6 +51,8 @@ export function buildMailto(quote: QuoteRequest): string {
       `Service: ${quote.service}`,
       `Product / item: ${quote.product || '—'}`,
       `Quantity: ${quote.quantity || '—'}`,
+      `Providing the product: ${quote.providingProduct || '—'}`,
+      `Pickup or ship: ${quote.fulfillment || '—'}`,
       `Rush (7 days or less): ${quote.rush ? 'Yes (+$50)' : 'No'}`,
       '',
       'Project details:',

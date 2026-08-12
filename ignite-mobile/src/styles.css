@@ -617,6 +617,93 @@ img {
   text-align: center;
 }
 
+.status-pill {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ash-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.status-pill.open {
+  border-color: rgba(120, 190, 110, 0.45);
+  color: #b7e0ad;
+  background: rgba(80, 140, 70, 0.18);
+}
+
+.announce {
+  margin: 16px 20px 0;
+  padding: 14px 14px 10px;
+  border: 1px solid rgba(232, 93, 4, 0.35);
+  background: rgba(232, 93, 4, 0.1);
+  display: grid;
+  gap: 8px;
+  animation: rise 420ms ease;
+}
+
+.announce strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--amber);
+}
+
+.announce p {
+  margin: 0;
+  color: var(--ash-muted);
+  line-height: 1.45;
+  font-size: 0.92rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.section-head h2 {
+  margin-bottom: 0;
+}
+
+.section-head a {
+  color: var(--amber);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.hours-list {
+  margin: 8px 0 18px;
+  border-top: 1px solid var(--line);
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ash-muted);
+  font-size: 0.95rem;
+}
+
+.hours-row span:first-child {
+  color: var(--ash);
+  font-weight: 600;
+}
+
+.calendly-inline-widget {
+  width: 100%;
+  border: 0;
+  background: #fff;
+  min-height: 700px;
+}
+
 @media (min-width: 720px) {
   .app-shell {
     border-left: 1px solid var(--line);

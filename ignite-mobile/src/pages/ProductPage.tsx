@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import productsData from '../data/products.json'
-import type { Product } from '../types'
+import { isFavorite, toggleFavorite } from '../lib/favorites'
 import { formatPrice } from '../lib/format'
+import type { Product } from '../types'
 
 const products = productsData as Product[]
 
@@ -9,6 +11,7 @@ export function ProductPage() {
   const { slug } = useParams()
   const navigate = useNavigate()
   const product = products.find((item) => item.slug === slug)
+  const [saved, setSaved] = useState(() => (product ? isFavorite(product.id) : false))
 
   if (!product) {
     return (
@@ -51,10 +54,19 @@ export function ProductPage() {
           >
             Request a quote
           </Link>
-          <a className="secondary-btn" href={product.url} target="_blank" rel="noreferrer">
+          <button
+            type="button"
+            className="secondary-btn"
+            onClick={() => setSaved(toggleFavorite(product.id).includes(product.id))}
+          >
+            {saved ? 'Saved ✓' : 'Save item'}
+          </button>
+        </div>
+        <p className="map-note" style={{ marginTop: 16 }}>
+          <a href={product.url} target="_blank" rel="noreferrer">
             View on website
           </a>
-        </div>
+        </p>
       </div>
     </div>
   )

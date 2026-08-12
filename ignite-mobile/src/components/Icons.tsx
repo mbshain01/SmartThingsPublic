@@ -58,6 +58,28 @@ export function StoryIcon({ className }: IconProps) {
   )
 }
 
+export function BookIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <rect
+        x="4"
+        y="5"
+        width="16"
+        height="15"
+        rx="2"
+        stroke="currentColor"
+        strokeWidth="1.7"
+      />
+      <path
+        d="M8 3.5v3M16 3.5v3M4 10.5h16"
+        stroke="currentColor"
+        strokeWidth="1.7"
+        strokeLinecap="round"
+      />
+    </svg>
+  )
+}
+
 export function ContactIcon({ className }: IconProps) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden="true">

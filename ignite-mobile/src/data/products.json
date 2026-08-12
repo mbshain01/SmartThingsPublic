@@ -7,9 +7,11 @@
     "price": 30.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/48b92c52-7099-45ed-8326-78c9c66e846c/IMG_5922.jpeg",
-    "description": "The Adventurer\u00e2\u0080\u0099s Essential: The Compact Folding Dice Tower Roll with Confidence, Anywhere Your Quest Takes You. Every tabletop gamer knows the struggle: You are squeezed into a booth at a local coffee shop, or balancing a character sheet on your knees at a crowded convention ha",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/68c8ab38466b913bd11b3af9/1768610692648/",
+    "description": "The Adventurer’s Essential: The Compact Folding Dice Tower Roll with Confidence, Anywhere Your Quest Takes You. Every tabletop gamer knows the struggle: You are squeezed into a booth at a local coffee shop, or balancing a character sheet on your knees at a crowded convention hall. The moment of truth arrives. You wind up for a critical death saving throw, release the die, and… watch in horror as it skitters off the table and vanishes under a stranger’s chair. Stop chasing your dice and start com",
     "categories": [
+      "Specialty Items",
+      "Custom Made Items",
       "Laser Cutting"
     ]
   },
@@ -18,13 +20,13 @@
     "title": "Wood Coasters",
     "slug": "wood-coasters",
     "url": "https://www.ignitelaserengraving.com/shop/p/wood-coasters",
-    "price": 0.0,
+    "price": null,
     "fromPrice": false,
     "soldOut": false,
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/167cffaa-b293-4d9b-b5d4-9db7bb26def6/2P2A4750.JPG",
-    "description": "Wood coasters make excellent gift ideas for any occasion. Their natural aesthetic adds warmth to both indoor and outdoor settings, making them a versatile choice for homes and gatherings. Perfect for protecting surfaces from drink rings and spills, these coasters can be personali",
+    "description": "Wood coasters make excellent gift ideas for any occasion. Their natural aesthetic adds warmth to both indoor and outdoor settings, making them a versatile choice for homes and gatherings. Perfect for protecting surfaces from drink rings and spills, these coasters can be personalized with laser engraving for that extra special touch. Whether for a wedding, housewarming, or corporate event, customized wooden coasters serve as practical yet thoughtful gifts that blend functionality with style.",
     "categories": [
-      "Laser Engraving"
+      "Specialty Items"
     ]
   },
   {
@@ -38,7 +40,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/19220ddf-259b-4cc9-9c5d-a0fec0833fe6/original.jpeg",
     "description": "",
     "categories": [
-      "Laser Cutting"
+      "Specialty Items"
     ]
   },
   {
@@ -52,7 +54,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/0d75fce0-00be-4440-99fe-53e070b4b7f8/original.jpeg",
     "description": "Enhance your holiday decor with our exquisite 4\" ornament. Its sparkling design and durable material make it the perfect festive decoration for your home. Add a touch of elegance to your festivities with this stunning ornament.",
     "categories": [
-      "Laser Cutting"
+      "Specialty Items"
     ]
   },
   {
@@ -63,11 +65,40 @@
     "price": 15.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102468880-9AJ8U17UAAU1224YL6X5/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2F87db88%2F5106145959%2Fil_fullxfull.5106145959_o8yh.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6760af50678879710b3df123/1757981589099/",
     "description": "Have a cutting board you want personalized for a gift for the baker or cook in your life, look no further.",
     "categories": [
+      "Specialty Items",
+      "Custom Made Items"
+    ]
+  },
+  {
+    "id": "6760848286c2f57d3aabba55",
+    "title": "Tumblers",
+    "slug": "tumblers",
+    "url": "https://www.ignitelaserengraving.com/shop/p/tumblers",
+    "price": 20.0,
+    "fromPrice": true,
+    "soldOut": false,
+    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/c8dacda8-3843-458c-8661-82305cd1bfe3/https%253A%252F%252Fi.etsystatic.com%252F44852533%252Fr%252Fil%252Fb97785%252F5050682030%252Fil_fullxfull.5050682030_aurn.jpg",
+    "description": "Our collection of premium insulated tumblers is designed to be the ultimate companion for your hydration journey, offering a versatile range of sizes and finishes to suit every lifestyle. Whether you are sipping a morning espresso, enjoying a vintage wine by the campfire, or staying hydrated during a cross-country road trip, these vessels are engineered to perform. Sizes for Every Moment We offer a comprehensive range of silhouettes tailored to specific needs: 8 oz & 10 oz Stemless: The sophisti",
+    "categories": [
+      "Laser Engraving"
+    ]
+  },
+  {
+    "id": "675fc12f892b8346564d0854",
+    "title": "Coasters",
+    "slug": "slate-coasters",
+    "url": "https://www.ignitelaserengraving.com/shop/p/slate-coasters",
+    "price": null,
+    "fromPrice": false,
+    "soldOut": false,
+    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/bc9ec573-23db-4882-9e7d-82e343e31778/IMG_4694.JPEG",
+    "description": "The Elements Collection: Handcrafted Natural Slate Coasters Elevate Your Surfaces with Earth’s Own Artistry. Whether you are protecting a mahogany heirloom dining table or a modern glass coffee desk, your coasters should be more than an afterthought. They should be a statement. Introducing The Elements Collection , our premium line of natural slate coasters available in three timeless geometries: The Classic Circle, The Modern Square, and The Architectural Hexagon. The Raw Beauty of Natural Ston",
+    "categories": [
+      "Specialty Items",
       "Custom Made Items",
-      "Laser Cutting",
       "Laser Engraving"
     ]
   },
@@ -82,8 +113,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102481789-2UO24SQM7JXAW5RI9XSE/image-asset.jpeg",
     "description": "Wooden bookmark, made to order",
     "categories": [
-      "Custom Made Items",
-      "Laser Cutting"
+      "Laser Engraving"
     ]
   },
   {
@@ -94,11 +124,10 @@
     "price": 1.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102453983-864SHT45IEVXMSFZ4SM2/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2Facb4e8%2F5478393743%2Fil_fullxfull.5478393743_mqgd.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050f565fd7a51964bdef5/1707102462715/",
     "description": "Pictures",
     "categories": [
-      "Custom Made Items",
-      "Laser Cutting"
+      "Specialty Items"
     ]
   },
   {
@@ -109,11 +138,10 @@
     "price": 10.0,
     "fromPrice": true,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102449453-F7AQUJ25ZXOQX0QJ8N3J/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2F4c9db1%2F5501810906%2Fil_fullxfull.5501810906_kuef.jpg",
-    "description": "Add a warm, flickering glow to your home this season with a handcrafted holiday tealight lantern . These lanterns are designed to be the centerpiece of your winter decor, blending the rustic charm of traditional metalwork with the festive spirit of the holidays. Whether you're lo",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050f052f7792a50b47611/1768623320347/",
+    "description": "Add a warm, flickering glow to your home this season with a handcrafted holiday tealight lantern . These lanterns are designed to be the centerpiece of your winter decor, blending the rustic charm of traditional metalwork with the festive spirit of the holidays. Whether you're looking for a classic lantern design or a modern decorative piece , these lanterns create a cozy atmosphere that makes any room feel like a winter wonderland. Timeless Holiday Designs Our holiday lanterns feature intricate",
     "categories": [
-      "Laser Cutting",
-      "Specialty Items"
+      "Laser Cutting"
     ]
   },
   {
@@ -124,11 +152,10 @@
     "price": 25.0,
     "fromPrice": true,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102443847-VIRF2S9DB5CUP5G97FWH/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2Fbb7f56%2F5501911812%2Fil_fullxfull.5501911812_2bi1.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050e765fd7a51964bdef0/1735520443641/",
     "description": "This item has six different lids, no design, Merry Christmas, Small House, Snowflake, Snow Flurry, Reindeer with Christmas Tree. There are 15 ornaments of various designs. All the ornaments are the same for each box.",
     "categories": [
-      "Laser Cutting",
-      "Specialty Items"
+      "Laser Cutting"
     ]
   },
   {
@@ -139,11 +166,11 @@
     "price": 15.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102435290-OAGSQSLE8DGIM7SLIU48/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2F976ae4%2F5550044741%2Fil_fullxfull.5550044741_jj2s.jpg",
-    "description": "Bring a touch of whimsical Scandi-folklore to your home with this 6-piece Basswood Gnome Ornament Set . This collection features five uniquely carved gnome ornaments accompanied by a matching basswood storage box , combining traditional woodworking with festive charm. Crafted fro",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050e2fec3957c6398a1ef/1768623499385/",
+    "description": "Bring a touch of whimsical Scandi-folklore to your home with this 6-piece Basswood Gnome Ornament Set . This collection features five uniquely carved gnome ornaments accompanied by a matching basswood storage box , combining traditional woodworking with festive charm. Crafted from premium basswood, known for its fine grain and soft, workable texture, these ornaments offer a rustic yet polished look that plastic or felt alternatives simply cannot match. Artisan Craftsmanship in Basswood Each of t",
     "categories": [
       "Laser Cutting",
-      "Specialty Items"
+      "Laser Engraving"
     ]
   },
   {
@@ -154,9 +181,11 @@
     "price": 20.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102433008-BZ8RQ1GUYJP328QX58TW/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2F8702e1%2F5734668342%2Fil_fullxfull.5734668342_r2ab.jpg",
-    "description": "Experience the perfect blend of sustainability and functionality with our bamboo bound notebook. Crafted from eco-friendly bamboo, this notebook is not only a stylish choice but also a conscious one. The durable construction ensures that your notes and ideas are securely stored f",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050e065fd7a51964bdee6/1757981589099/",
+    "description": "Experience the perfect blend of sustainability and functionality with our bamboo bound notebook. Crafted from eco-friendly bamboo, this notebook is not only a stylish choice but also a conscious one. The durable construction ensures that your notes and ideas are securely stored for years to come. Embrace sustainability in your everyday life with our bamboo bound notebook. Notebook may vary in style.",
     "categories": [
+      "Specialty Items",
+      "Custom Made Items",
       "Laser Engraving"
     ]
   },
@@ -185,7 +214,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102433162-XENHD5LQM46EUAOG9EUQ/image-asset.jpeg",
     "description": "Heart shaped box for storing earrings, keepsakes, smaller items.",
     "categories": [
-      "Laser Cutting"
+      "Specialty Items"
     ]
   },
   {
@@ -199,7 +228,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102429111-DWNFRHK8Y9FLRM4PELOM/image-asset.jpeg",
     "description": "This is a layered frame that holds a 4\" picture.",
     "categories": [
-      "Laser Engraving"
+      "Laser Cutting"
     ]
   },
   {
@@ -210,9 +239,10 @@
     "price": 10.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102422403-MMOCR0Z95AHESLHOYQ2O/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2Fbbd1e0%2F5782985451%2Fil_fullxfull.5782985451_hsq4.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050d5fec3957c6398a1e2/1734388192345/",
     "description": "This savings bank shows you how to save up to $1000 on the back.",
     "categories": [
+      "Laser Engraving",
       "Laser Cutting"
     ]
   },
@@ -224,11 +254,10 @@
     "price": 30.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1707102419235-PYF5Y8IL30GD6C3IZW5G/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2Fe55176%2F5734922422%2Fil_fullxfull.5734922422_3uga.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65c050d252f7792a50b475f2/1735519946583/",
     "description": "This is a wine bottle and wine glass holder stands approximately 10\". Great for the wine lovers out there. Great for that table center piece for a get together.",
     "categories": [
-      "Laser Cutting",
-      "Laser Engraving"
+      "Specialty Items"
     ]
   },
   {
@@ -239,11 +268,10 @@
     "price": 60.0,
     "fromPrice": false,
     "soldOut": true,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1700453415503-4JMKEOMGOO5YKQT42GN7/IMG_2953.jpeg",
-    "description": "The Artisanal Floral Wood Wine Carrier: Elegance in Every Journey Protect Your Finest Vintages with Natural Sophistication. For the true wine enthusiast, a bottle is more than just a drink\u00e2\u0080\u0094it\u00e2\u0080\u0099s an experience, a conversation starter, and often, a cherished gift. But transporti",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/655adbfe1acd1b71e88201b8/1768611064348/",
+    "description": "The Artisanal Floral Wood Wine Carrier: Elegance in Every Journey Protect Your Finest Vintages with Natural Sophistication. For the true wine enthusiast, a bottle is more than just a drink—it’s an experience, a conversation starter, and often, a cherished gift. But transporting a premium bottle in a flimsy paper bag or letting it clatter around in a picnic basket doesn't do justice to the vintage inside. Introducing the Artisanal Floral Wood Wine Carrier , a masterfully crafted transport solutio",
     "categories": [
-      "Laser Cutting",
-      "Laser Engraving"
+      "Specialty Items"
     ]
   },
   {
@@ -254,10 +282,9 @@
     "price": 15.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1699917577555-UQ5OJ8J49S1INL2NZPOW/2P2A4876.JPG",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6552aee9189ee115dfae462f/1735516114512/",
     "description": "Made with Basswood, Great Stocking Stuffer.",
     "categories": [
-      "Laser Cutting",
       "Specialty Items"
     ]
   },
@@ -269,9 +296,10 @@
     "price": 10.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1699917360021-A4O8L2G0ZW40HUKZJYOV/2P2A4892.JPG",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6552ae1e6a9db764e0032158/1699917537006/",
     "description": "2 Layers of Basswood Farm / Barn Themed Ornament.",
     "categories": [
+      "Specialty Items",
       "Laser Cutting"
     ]
   },
@@ -284,9 +312,10 @@
     "fromPrice": false,
     "soldOut": false,
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1699916861786-M75NY6P35DQQP3S7NFFP/2P2A4873.JPG",
-    "description": "Add a touch of festive spirit to your home with our Christmas Tea Light Lantern. Crafted from high-quality wood, this beautiful lantern is the perfect addition to your holiday decor collection. Beautiful Christmas Decoration: The quintessential addition to your holiday decor, thi",
+    "description": "Add a touch of festive spirit to your home with our Christmas Tea Light Lantern. Crafted from high-quality wood, this beautiful lantern is the perfect addition to your holiday decor collection. Beautiful Christmas Decoration: The quintessential addition to your holiday decor, this lantern radiates warmth and joy. Universal Placement: This lantern is suitable for placement in any part of the house, making it a versatile and convenient decoration option. The delicate design of the Christmas Tea Li",
     "categories": [
-      "Specialty Items"
+      "Specialty Items",
+      "Laser Cutting"
     ]
   },
   {
@@ -297,7 +326,7 @@
     "price": 6.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1696180412407-EUCMJ9ZFBWVHNWZZYXDI/2P2A4762.JPG",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6519f7bd0ce790421ef6fb92/1696247086443/",
     "description": "Etched glass coaster. Personalized how you want it, company logo, picture of your choice",
     "categories": [
       "Laser Engraving"
@@ -311,9 +340,11 @@
     "price": 20.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1696200288402-A78WGFRLPOJF0UKJI2BJ/2P2A4864.JPG",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6519f62c0e80906b12069e0f/1757981589099/",
     "description": "Cutting board clock in 12 /24 hour format",
     "categories": [
+      "Specialty Items",
+      "Custom Made Items",
       "Laser Cutting",
       "Laser Engraving"
     ]
@@ -326,10 +357,11 @@
     "price": 15.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1696179995961-5972Z9AK6HA8F3T9R8AS/2P2A4823.JPG",
-    "description": "Capture the Magic of the Diamond: Custom Laser Engraved Baseballs &amp; Softballs More Than Just a Ball\u00e2\u0080\u0094It\u00e2\u0080\u0099s a Memory Etched in Leather. There is no sound quite like the crack of the bat, and no feeling quite like the dust of the diamond. Whether it\u00e2\u0080\u0099s the bottom of the nint",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6519ad050ce790421ef6baa8/1768610932781/",
+    "description": "Capture the Magic of the Diamond: Custom Laser Engraved Baseballs & Softballs More Than Just a Ball—It’s a Memory Etched in Leather. There is no sound quite like the crack of the bat, and no feeling quite like the dust of the diamond. Whether it’s the bottom of the ninth, a senior year send-off, or that very first T-ball home run, baseball and softball aren’t just sports—they are collections of moments that define us. Don’t let those memories fade away in a cardboard box or get lost on a dusty t",
     "categories": [
-      "Laser Engraving"
+      "Laser Engraving",
+      "Specialty Items"
     ]
   },
   {
@@ -343,7 +375,20 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1694555199692-G898VBRKSKCB7NCBWQYX/2P2A4845.JPG",
     "description": "Theses are mushrooms earrings cut from Basswood.",
     "categories": [
-      "Laser Cutting",
+      "Laser Cutting"
+    ]
+  },
+  {
+    "id": "651604e80ce790421ef51157",
+    "title": "Customized Bottle Opener",
+    "slug": "stainless-steel-bottle-opener",
+    "url": "https://www.ignitelaserengraving.com/shop/p/stainless-steel-bottle-opener",
+    "price": 7.0,
+    "fromPrice": true,
+    "soldOut": false,
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/651604e80ce790421ef51157/1768624053440/",
+    "description": "Our collection of professional-grade bottle openers is designed to provide the perfect balance of durability, ergonomics, and style . Whether you are a professional bartender working a high-volume shift or a home enthusiast hosting a weekend gathering, these openers are engineered to handle every cap with ease. Measuring approximately 1.5\" x 7\" , these tools offer the ideal leverage for effortless opening while remaining slim enough to slip into a back pocket or apron. Material Options for Every",
+    "categories": [
       "Specialty Items"
     ]
   },
@@ -355,10 +400,12 @@
     "price": 5.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1695941857224-P9WGONB6359SQLC3NPM8/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2Fcd8c51%2F5060865334%2Fil_fullxfull.5060865334_ggga.jpg",
-    "description": "The Earth-First Executive: Personalized Bamboo Retractable Pen Sustainable Style Meets Everyday Utility. In an era where the \"disposable\" culture is fading, your writing instrument should tell a story of sustainability, responsibility, and personal identity. Our Personalized Bamb",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/651604d80e80906b1204b48d/1768611591750/",
+    "description": "The Earth-First Executive: Personalized Bamboo Retractable Pen Sustainable Style Meets Everyday Utility. In an era where the \"disposable\" culture is fading, your writing instrument should tell a story of sustainability, responsibility, and personal identity. Our Personalized Bamboo Retractable Pen isn't just a tool for jotting down notes; it is a statement of values. Crafted from genuine, rapid-growth bamboo, this pen offers a warm, organic alternative to the cold, sterile plastics that dominate",
     "categories": [
-      "Laser Cutting"
+      "Specialty Items",
+      "Custom Made Items",
+      "Laser Engraving"
     ]
   },
   {
@@ -369,11 +416,10 @@
     "price": 5.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1695941836167-YWLO3M6M4M875OO3M4C0/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2F54cfe6%2F5120200546%2Fil_fullxfull.5120200546_chmg.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/651604b10e80906b1204b474/1696131226486/",
     "description": "Various color festive pumpkin earrings. Either in plain basswood or painted orange, pink acrylic painted clear acrylic (clear, black, orange)",
     "categories": [
-      "Laser Cutting",
-      "Specialty Items"
+      "Laser Cutting"
     ]
   },
   {
@@ -384,7 +430,7 @@
     "price": 7.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1695941804364-WV34OKZA2YTEACKYW8Y2/https%3A%2F%2Fi.etsystatic.com%2F44852533%2Fr%2Fil%2F7bc4b6%2F5120212102%2Fil_fullxfull.5120212102_rb7p.jpg",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/651604a6e2260e38d2e3cab5/1696130686456/",
     "description": "Pink acrylic jellyfish with dangly tentacles. can also be made from Basswood and clear acrylic. Designed by Kaia.",
     "categories": [
       "Specialty Items"
@@ -401,7 +447,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1694555207924-5I8W0YC5YY52OKKDBVK6/2P2A4846.JPG",
     "description": "",
     "categories": [
-      "Laser Cutting"
+      "Specialty Items"
     ]
   },
   {
@@ -412,11 +458,10 @@
     "price": 6.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1694555211694-T2OQ56QEB6Y8OM5HZ9KF/2P2A4854.JPG",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/65019c62e363893fc6e9cbf9/1696130626490/",
     "description": "",
     "categories": [
-      "Laser Cutting",
-      "Specialty Items"
+      "Laser Cutting"
     ]
   },
   {
@@ -427,10 +472,9 @@
     "price": 5.0,
     "fromPrice": false,
     "soldOut": false,
-    "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1694555212479-855CKDPZKUIFLEM2JO5G/2P2A4857.JPG",
+    "image": "https://static1.squarespace.com/static/64b5d7d10161680958dcd3be/64e123e0ffdd744d62419f80/6500f40f3071cf47eee3f213/1696130596075/",
     "description": "Customize you laser cut or laser engraved earrings. __________ Prices vary upon quantity and other factors. Complete a Quote Request to receive a price estimate.",
     "categories": [
-      "Custom Made Items",
       "Laser Cutting"
     ]
   },
@@ -445,6 +489,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1692478720402-LTQUSRKO3HP2Y5XHK0S2/Square.png",
     "description": "Prices vary upon quantity and other factors. Complete a Quote Request to receive a price estimate.",
     "categories": [
+      "Custom Made Items",
       "Laser Engraving"
     ]
   },
@@ -459,6 +504,7 @@
     "image": "https://images.squarespace-cdn.com/content/v1/64b5d7d10161680958dcd3be/1692478494796-3W8KEDI9W5R26URHIUS1/glass.png",
     "description": "Prices vary upon quantity and other factors. Complete a Quote Request to receive a price estimate.",
     "categories": [
+      "Custom Made Items",
       "Laser Engraving"
     ]
   }

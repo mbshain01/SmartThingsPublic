@@ -1,37 +1,57 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import productsData from '../data/products.json'
 import { faqs } from '../data/faqs'
+import { loadFavorites } from '../lib/favorites'
 import type { Product } from '../types'
 import { ProductCard } from '../components/ProductCard'
 
 const products = productsData as Product[]
 
-const categories = ['All', 'Laser Engraving', 'Laser Cutting', 'Specialty Items', 'Custom Made Items']
+const categories = [
+  'All',
+  'Saved',
+  'Laser Engraving',
+  'Laser Cutting',
+  'Specialty Items',
+  'Custom Made Items',
+]
 
 export function ShopPage() {
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState('All')
+  const [favoriteIds, setFavoriteIds] = useState<string[]>(() => loadFavorites())
+
+  useEffect(() => {
+    const refresh = () => setFavoriteIds(loadFavorites())
+    refresh()
+    window.addEventListener('focus', refresh)
+    return () => window.removeEventListener('focus', refresh)
+  }, [category])
+
+  const favorites = useMemo(() => new Set(favoriteIds), [favoriteIds])
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
     return products.filter((product) => {
       const inCategory =
-        category === 'All' || product.categories.includes(category)
+        category === 'All' ||
+        (category === 'Saved' && favorites.has(product.id)) ||
+        product.categories.includes(category)
       const inQuery =
         !q ||
         product.title.toLowerCase().includes(q) ||
         product.description.toLowerCase().includes(q)
       return inCategory && inQuery
     })
-  }, [category, query])
+  }, [category, query, favorites])
 
   return (
     <div className="page">
       <section className="section">
         <h2>Shop</h2>
         <p className="lede">
-          Prices vary by quantity and customization. Tap an item to request a quote, or ask about
-          something we don’t list.
+          {products.length} products from the Ignite store. Prices vary by quantity and
+          customization — tap an item to request a quote.
         </p>
       </section>
 
@@ -59,7 +79,11 @@ export function ShopPage() {
       </div>
 
       {filtered.length === 0 ? (
-        <p className="empty">No products match. Try another search or category.</p>
+        <p className="empty">
+          {category === 'Saved'
+            ? 'No saved items yet. Open a product and tap Save item.'
+            : 'No products match. Try another search or category.'}
+        </p>
       ) : (
         <div className="product-grid">
           {filtered.map((product) => (
