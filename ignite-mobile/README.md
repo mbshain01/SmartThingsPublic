@@ -1,38 +1,79 @@
-# Ignite Laser Engraving — Mobile App
+# Ignite Laser Engraving — Mobile App (iOS first)
 
-Installable progressive web app for [Ignite Laser Engraving](https://www.ignitelaserengraving.com): browse the shop, request quotes, book a consult, and contact the shop from a phone-first interface.
+Native **iOS** app (Capacitor) plus installable web PWA for [Ignite Laser Engraving](https://www.ignitelaserengraving.com).
 
-## Features
+Bundle ID: `com.ignitelaserengraving.app`  
+Display name: **Ignite Laser**
 
-- Mobile app shell with bottom navigation (Home, Shop, Quote, Book, Contact)
-- Shop catalog synced from the live Squarespace store with search, filters, and save-for-later
-- Quote request form that opens email to `michael.shain@ignitelaserengraving.com` and keeps recent requests on-device
-- Calendly booking for in-person / phone consults
-- Open-now status, hours, click-to-call, email, maps, Etsy, Instagram, and Facebook
-- Pricing announcement banner and Our Story page
-- PWA install support (Add to Home Screen) with offline caching for the app shell and product images
+## What’s included
 
-## Develop
+- Phone-first shell: Home · Shop · Quote · Book · Contact
+- Shop catalog from the live Squarespace store (search, filters, save-for-later)
+- Quote requests via the device Mail app (`mailto:`) with on-device history
+- Calendly consult booking (opens in SFSafariViewController on iOS)
+- Call, email, Apple Maps, Etsy, Instagram, Facebook
+- Open-now status, weekly hours, pricing announcement, Our Story
+- Branded iOS app icon + splash screen
+
+## iOS (Xcode) — primary path
+
+Requires a **Mac** with Xcode 16+ and an Apple Developer account for device/TestFlight/App Store builds.
 
 ```bash
 cd ignite-mobile
 npm install
-npm run dev
+npm run ios
 ```
 
-Open the local URL (default `http://localhost:5173`) on a phone or in a mobile viewport.
+That builds the web app, syncs into `ios/`, and opens `ios/App/App.xcworkspace` (or the Xcode project) in Xcode.
 
-## Build
+### In Xcode
+
+1. Select the **App** target → **Signing & Capabilities**
+2. Choose your Team and confirm bundle ID `com.ignitelaserengraving.app`
+3. Pick an iPhone simulator or a connected device
+4. Press **Run** (▶)
+
+### Useful scripts
+
+| Script | Purpose |
+| --- | --- |
+| `npm run ios:sync` | Build web assets + `cap sync ios` |
+| `npm run ios:open` | Open the iOS project in Xcode |
+| `npm run ios` | Sync then open |
+
+After any UI/code change, run `npm run ios:sync` before building in Xcode again.
+
+### App Store / TestFlight
+
+1. Archive in Xcode (**Product → Archive**)
+2. Distribute to TestFlight or App Store Connect
+3. App privacy: the app stores quotes/favorites on-device only; no tracking SDK is bundled (`PrivacyInfo.xcprivacy` declares UserDefaults for local preferences)
+
+## Web / PWA (optional)
 
 ```bash
-npm run build
-npm run preview
+cd ignite-mobile
+npm install
+npm run dev      # local preview
+npm run build    # static `dist/` for hosting
 ```
 
-Deploy the `dist/` folder to any static host (Netlify, Vercel, Cloudflare Pages, GitHub Pages, or a reverse proxy in front of the Squarespace site).
+On iPhone Safari, **Share → Add to Home Screen** still works as a lightweight install if you are not shipping the native build yet.
+
+## Project layout
+
+```
+ignite-mobile/
+  src/                 React UI
+  ios/                 Capacitor Xcode project
+  capacitor.config.ts  App ID, splash, status bar
+  dist/                Built web assets (synced into ios)
+```
 
 ## Notes
 
-- Product catalog is sourced from the live Squarespace shop and stored in `src/data/products.json`.
-- Quotes are stored in `localStorage` and submitted via `mailto:` so no backend is required for v1.
-- Appointments use the live Calendly page: `https://calendly.com/michael-shain-ignitelaserengraving`.
+- Quotes use `mailto:` + `localStorage` (no backend required for v1).
+- Booking uses `https://calendly.com/michael-shain-ignitelaserengraving`.
+- Product images load from Squarespace CDNs; device needs network for the catalog photos.
+- Android can be added later with `npx cap add android` using the same web app.

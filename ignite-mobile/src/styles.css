@@ -81,6 +81,24 @@ img {
   padding-bottom: calc(var(--nav-h) + var(--safe-bottom) + 12px);
 }
 
+html.native-ios .app-shell {
+  max-width: none;
+}
+
+html.native-ios body {
+  background-attachment: scroll;
+  overscroll-behavior-y: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html.native-ios input,
+html.native-ios textarea,
+html.native-ios select {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
 .page {
   animation: rise 420ms cubic-bezier(0.22, 1, 0.36, 1);
 }

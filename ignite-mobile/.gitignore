@@ -3,3 +3,13 @@ dist
 .DS_Store
 *.local
 dev-dist
+
+# Capacitor / Xcode
+ios/App/Pods
+ios/App/App/public
+ios/DerivedData
+ios/App/build
+ios/App/*.xcworkspace/xcuserdata
+ios/App/*.xcodeproj/xcuserdata
+ios/App/*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate

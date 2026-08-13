@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { ExternalLink } from '../components/ExternalLink'
 import { business } from '../data/business'
 
 export function StoryPage() {
@@ -23,12 +24,12 @@ export function StoryPage() {
           </Link>
         </div>
         <div className="cta-row" style={{ marginTop: 10 }}>
-          <a className="secondary-btn" href={business.etsy} target="_blank" rel="noreferrer">
+          <ExternalLink className="secondary-btn" href={business.etsy}>
             Etsy shop
-          </a>
-          <a className="secondary-btn" href={business.instagram} target="_blank" rel="noreferrer">
+          </ExternalLink>
+          <ExternalLink className="secondary-btn" href={business.instagram}>
             Instagram
-          </a>
+          </ExternalLink>
         </div>
       </section>
     </div>

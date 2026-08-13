@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import { ExternalLink } from '../components/ExternalLink'
 import { business, getOpenStatus } from '../data/business'
 
 export function ContactPage() {
-  const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(
+  const mapsUrl = `https://maps.apple.com/?q=${encodeURIComponent(
     `${business.address.line1}, ${business.address.city}, ${business.address.state} ${business.address.zip}`,
   )}`
   const status = getOpenStatus()
@@ -37,22 +38,22 @@ export function ContactPage() {
             <span>Request quote</span>
             <span>Form</span>
           </Link>
-          <a href={mapsUrl} target="_blank" rel="noreferrer">
+          <ExternalLink href={mapsUrl}>
             <span>Directions</span>
             <span>Santa Rosa</span>
-          </a>
-          <a href={business.etsy} target="_blank" rel="noreferrer">
+          </ExternalLink>
+          <ExternalLink href={business.etsy}>
             <span>Etsy</span>
             <span>Shop Ignite</span>
-          </a>
-          <a href={business.instagram} target="_blank" rel="noreferrer">
+          </ExternalLink>
+          <ExternalLink href={business.instagram}>
             <span>Instagram</span>
             <span>@laser_ignite</span>
-          </a>
-          <a href={business.facebook} target="_blank" rel="noreferrer">
+          </ExternalLink>
+          <ExternalLink href={business.facebook}>
             <span>Facebook</span>
             <span>ignitele</span>
-          </a>
+          </ExternalLink>
         </div>
 
         <div className="contact-block">

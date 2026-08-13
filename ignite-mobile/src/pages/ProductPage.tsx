@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
+import { ExternalLink } from '../components/ExternalLink'
 import productsData from '../data/products.json'
 import { isFavorite, toggleFavorite } from '../lib/favorites'
 import { formatPrice } from '../lib/format'
@@ -63,9 +64,7 @@ export function ProductPage() {
           </button>
         </div>
         <p className="map-note" style={{ marginTop: 16 }}>
-          <a href={product.url} target="_blank" rel="noreferrer">
-            View on website
-          </a>
+          <ExternalLink href={product.url}>View on website</ExternalLink>
         </p>
       </div>
     </div>
