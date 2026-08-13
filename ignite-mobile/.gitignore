@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+*.local
+dev-dist
+
+# Capacitor / Xcode build artifacts (keep ios/App/App/public committed so Xcode
+# opens the real Ignite app without an empty/default Hello World shell)
+ios/App/Pods
+ios/DerivedData
+ios/App/build
+ios/App/*.xcworkspace/xcuserdata
+ios/App/*.xcodeproj/xcuserdata
+ios/App/*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserstate
