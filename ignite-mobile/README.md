@@ -22,10 +22,13 @@ Requires a **Mac** with Xcode 16+ and an Apple Developer account for device/Test
 ```bash
 cd ignite-mobile
 npm install
-npm run ios
+npm run ios:sync   # required — copies the Ignite UI into the iOS project
+npm run ios:open   # opens Xcode
 ```
 
-That builds the web app, syncs into `ios/`, and opens `ios/App/App.xcworkspace` (or the Xcode project) in Xcode.
+Or in one step: `npm run ios`.
+
+**If the simulator shows “Hello, World”:** you opened the Xcode project before syncing. Quit the app, run `npm run ios:sync` from `ignite-mobile/`, then in Xcode use **Product → Clean Build Folder** and Run again. Open `ios/App/App.xcodeproj` (the Ignite Capacitor project), not a separate Swift “Hello World” sample.
 
 ### In Xcode
 

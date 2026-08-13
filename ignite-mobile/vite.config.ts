@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  // Relative asset paths so the Capacitor iOS WebView loads JS/CSS correctly.
+  base: './',
   plugins: [
     react(),
     VitePWA({

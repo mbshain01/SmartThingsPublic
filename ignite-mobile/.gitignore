@@ -4,9 +4,9 @@ dist
 *.local
 dev-dist
 
-# Capacitor / Xcode
+# Capacitor / Xcode build artifacts (keep ios/App/App/public committed so Xcode
+# opens the real Ignite app without an empty/default Hello World shell)
 ios/App/Pods
-ios/App/App/public
 ios/DerivedData
 ios/App/build
 ios/App/*.xcworkspace/xcuserdata
